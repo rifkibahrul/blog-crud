@@ -22,7 +22,9 @@ Proyek ini menggunakan Laravel 10.
   php artisan key:generate
 ```
 
-- Lakukan migrasi pada database menggunakan ORM
+- Buat database dengan nama sesuai pada file .env
+
+- Lakukan migrasi tabel pada database menggunakan perintah ini
 
 ```bash
   php artisan migrate
